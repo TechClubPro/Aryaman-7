@@ -17,20 +17,20 @@ if a=="20147":
     val=exp-tday
     if val<0 :
         print("Your card is invalid")
-        print("Your card got invalid in" +str(val))
+        
     else :
         print("Your card is valid")
-        print("Your card will get invalid in" +str(val))
+        
 if a=="54785":
     tday=datetime.date.today()
     exp=datetime.date(2020,3,0)
     val=exp-tday
     if val<0 :
         print("Your card is invalid")
-        print("Your card got invalid in" +str(val))
+      
     else :
         print("Your card is valid")
-        print("Your card will get invalid in" +str(val))
+       
         
 if a=="85742" :
     now=datetime.datetime.now()
@@ -38,18 +38,17 @@ if a=="85742" :
     val=exp-now
     if val.total_seconds()<0 :
         print("Your card is invalid")
-        print("Your card got invalid in" +str(val))
+       
     else :
         print("Your card is valid")
-        print("Your card will get invalid in" +str(val))
+       
 
 if a=="54654":
     tday=datetime.date.today()
     exp=datetime.date(2020,4,0)
     val=exp-tday
     if val<0 :
-        print("Your card is invalid")
-        print("Your card got invalid in" +str(val))
+        print("Your card is invalid") 
     else :
         print("Your card is valid")
-        print("Your card will get invalid in" +str(val))
+       
