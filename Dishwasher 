@@ -129,5 +129,8 @@ while count <=6 :
         print("Sorry Such a mode does not exist ")
         count=count+0
         
+    if count>=6 :
+        print("Your detergent is over !")
+        break
 print("Thank you for using Bosch Dishwasher")
 print("Hope your dishes are sparkling!!")
